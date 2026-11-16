@@ -11,13 +11,13 @@ Agent skills (the open `SKILL.md` format) by Yong Quan Tan / Kairos Labs.
 ## Install
 
 ```bash
-npx skills add yongquantan/agent-skills
+npx skills add yongquantan/skills
 ```
 
 Or a single skill:
 
 ```bash
-npx skills add yongquantan/agent-skills/skills/setup-devin-slack
+npx skills add yongquantan/skills/skills/setup-devin-slack
 ```
 
 These skills assume a browser-driving agent. `setup-devin-slack` uses [Playwriter](https://playwriter.dev) against the user's own Chrome/Chromium browser; equivalent computer-use tooling works with adaptation.
